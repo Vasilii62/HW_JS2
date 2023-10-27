@@ -18,9 +18,9 @@ const dayNumber = Number(prompt("Введите день месяца!"));
 if (dayNumber < 1 || dayNumber > 31) {
     console.log("Неверное значение!");
 } else {
-    if (dayNumber >= 1 && dayNumber <= 10) {
+    if (dayNumber <= 10) {
         console.log(`Число ${dayNumber} попадает в 1 декаду месяца.`);
-    } else if (dayNumber > 10 && dayNumber <= 20) {
+    } else if (dayNumber <= 20) {
         console.log(`Число ${dayNumber} попадает в 2 декаду месяца.`);
     } else {
         console.log(`Число ${dayNumber} попадает в 3 декаду месяца.`);
